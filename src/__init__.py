@@ -1,1 +1,1 @@
-"""Analytics helpers for NovaRetail analytics dashboard."""
+"""Analytics helpers for Novaretail analytics dashboard."""

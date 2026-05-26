@@ -1,5 +1,5 @@
 """
-NovaRetail Analytics Command Center — portfolio demo.
+Novaretail Analytics Command Center — portfolio demo.
 
 Translates business questions into KPI tracking, recurring reporting,
 A/B test readouts, and governed metric definitions for a multi-platform retail client.
@@ -28,7 +28,7 @@ from src.analytics import (  # noqa: E402
 )
 
 st.set_page_config(
-    page_title="NovaRetail | Analytics Command Center",
+    page_title="Novaretail | Analytics Command Center",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -144,7 +144,7 @@ def hero():
 <div class="hero">
   <span class="tag">Consulting analytics prototype</span>
   <span class="tag">Python · SQL · KPI governance · A/B testing</span>
-  <h1>NovaRetail — Client Analytics Command Center</h1>
+  <h1>Novaretail — Client Analytics Command Center</h1>
   <p>Sample engagement deliverable: business questions → metric definitions → dashboards → experiment readouts.
   Built by Shruti Dubal — product & consulting analytics portfolio.</p>
 </div>
