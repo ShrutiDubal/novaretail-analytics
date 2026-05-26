@@ -16,7 +16,7 @@ A consulting-style Streamlit app that mirrors what you'd deliver on a Konrad cli
 | Data modeling | MART layer diagram + ER model tab |
 | Cross-functional consulting delivery | README + one-page narrative for PDF |
 
-## Quick start
+## Quick start (local)
 
 ```bash
 cd konrad_analytics_demo
@@ -25,6 +25,44 @@ streamlit run app.py
 ```
 
 Open `http://localhost:8501`.
+
+## Deploy to GitHub + Streamlit Cloud
+
+### Step 1 — Create a GitHub repo
+
+1. Go to [github.com/new](https://github.com/new)
+2. Repository name: `konrad-analytics-demo` (or any name)
+3. Set to **Public** (required for free Streamlit Cloud)
+4. Do **not** add README, `.gitignore`, or license (this folder already has them)
+5. Click **Create repository**
+
+### Step 2 — Push this project
+
+In PowerShell (replace `YOUR_USERNAME` with your GitHub username):
+
+```powershell
+cd c:\Users\SHRUTI\Downloads\Shruti_Projects\konrad_analytics_demo
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/konrad-analytics-demo.git
+git push -u origin main
+```
+
+Sign in when GitHub prompts you (browser or token).
+
+> First time using git on this PC? Set your name once (only you should run this):
+> `git config --global user.name "Your Name"`
+> `git config --global user.email "your-email@example.com"`
+
+### Step 3 — Deploy on Streamlit Cloud (live link)
+
+1. Go to [share.streamlit.io](https://share.streamlit.io)
+2. Sign in with **GitHub**
+3. Click **New app**
+4. Pick your repo `konrad-analytics-demo`
+5. **Main file path:** `app.py`
+6. Click **Deploy**
+
+You’ll get a public URL like `https://konrad-analytics-demo.streamlit.app` — put that in your Konrad application.
 
 ## Share with Konrad (3 options)
 
