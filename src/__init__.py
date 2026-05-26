@@ -1,1 +1,1 @@
-"""Analytics helpers for konrad_analytics_demo."""
+"""Analytics helpers for NovaRetail analytics dashboard."""

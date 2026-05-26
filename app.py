@@ -1,8 +1,8 @@
 """
-Konrad-style Client Analytics Command Center — portfolio demo.
+NovaRetail Analytics Command Center — portfolio demo.
 
 Translates business questions into KPI tracking, recurring reporting,
-A/B test readouts, and governed metric definitions for a digital product client.
+A/B test readouts, and governed metric definitions for a multi-platform retail client.
 """
 
 from __future__ import annotations
@@ -146,7 +146,7 @@ def hero():
   <span class="tag">Python · SQL · KPI governance · A/B testing</span>
   <h1>NovaRetail — Client Analytics Command Center</h1>
   <p>Sample engagement deliverable: business questions → metric definitions → dashboards → experiment readouts.
-  Built by Shruti for Konrad Data Analyst application.</p>
+  Built by Shruti Dubal — product & consulting analytics portfolio.</p>
 </div>
         """,
         unsafe_allow_html=True,

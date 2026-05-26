@@ -1,4 +1,4 @@
-"""Core analytics helpers for the Konrad-style consulting demo."""
+"""Core analytics helpers for the NovaRetail demo."""
 
 from __future__ import annotations
 
