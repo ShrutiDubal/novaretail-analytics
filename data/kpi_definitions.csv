@@ -1,0 +1,9 @@
+kpi_id,kpi_name,category,definition,formula,owner,refresh_cadence,target_direction,baseline_value,target_value,unit
+KPI-001,Weekly Active Users,Engagement,Distinct users with at least one session in trailing 7 days,"COUNT(DISTINCT user_id) WHERE event_date >= CURRENT_DATE - 7",Product Analytics,Weekly,higher,12400,14000,users
+KPI-002,Signup Conversion Rate,Acquisition,New signups divided by unique landing-page visitors,"SUM(signups) / NULLIF(SUM(landing_visitors), 0)",Growth,Weekly,higher,0.032,0.038,ratio
+KPI-003,Day-7 Retention,Retention,Share of new cohort still active on day 7,active_d7 / cohort_size,Product Analytics,Weekly,higher,0.41,0.45,ratio
+KPI-004,Checkout Completion Rate,Revenue,Completed checkouts over checkout starts,completed_orders / checkout_starts,Commerce,Daily,higher,0.68,0.72,ratio
+KPI-005,Average Order Value,Revenue,Mean gross merchandise value per completed order,"SUM(gmv) / COUNT(DISTINCT order_id)",Commerce,Daily,higher,47.2,50.0,USD
+KPI-006,Crash-Free Sessions,Quality,Sessions without fatal app crash,(total_sessions - crash_sessions) / total_sessions,Engineering,Daily,higher,0.992,0.995,ratio
+KPI-007,Support Ticket Rate,Operations,Tickets opened per 1k MAU,(tickets / mau) * 1000,Customer Success,Weekly,lower,8.4,7.0,tickets_per_1k_mau
+KPI-008,Experiment Lift Readout,Growth,Primary metric lift vs control for active tests,(variant_metric - control_metric) / control_metric,Analytics,Per experiment,higher,0.0,0.05,ratio

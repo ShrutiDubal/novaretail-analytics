@@ -1,0 +1,9 @@
+experiment_id,experiment_name,status,platform,variant,users,checkout_starts,completed_orders,primary_metric_value,start_date,end_date,hypothesis
+EXP-2026-01,One-tap checkout CTA,Completed,All,control,48200,12480,8120,0.1684,2026-01-08,2026-01-28,Reducing friction on checkout CTA increases completion rate
+EXP-2026-01,One-tap checkout CTA,Completed,All,treatment_a,47850,13120,9010,0.1883,2026-01-08,2026-01-28,Reducing friction on checkout CTA increases completion rate
+EXP-2026-02,Personalized home hero,Running,iOS,control,22100,6120,3980,0.6503,2026-02-10,2026-03-10,Personalized hero improves checkout start rate among returning users
+EXP-2026-02,Personalized home hero,Running,iOS,treatment_a,21980,6580,4320,0.6606,2026-02-10,2026-03-10,Personalized hero improves checkout start rate among returning users
+EXP-2026-03,Push notification timing,Running,Android,control,25600,7040,4510,0.6405,2026-02-18,2026-03-18,Evening push window increases session depth without hurting crash rate
+EXP-2026-03,Push notification timing,Running,Android,treatment_a,25420,7280,4720,0.6570,2026-02-18,2026-03-18,Evening push window increases session depth without hurting crash rate
+EXP-2026-04,Guest checkout banner,Completed,Web,control,11800,3420,2180,0.6374,2025-12-15,2026-01-15,Guest checkout messaging reduces abandonment on web
+EXP-2026-04,Guest checkout banner,Completed,Web,treatment_a,11650,3580,2360,0.6592,2025-12-15,2026-01-15,Guest checkout messaging reduces abandonment on web
